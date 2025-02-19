@@ -9,7 +9,10 @@
 ### 1. **Вступ до програмування**
 - **Опис:** Основи програмування на Python.
 - **Файли:**
-  - `main.py` — Головний файл з прикладами коду.
+  - `main.py` — Вступ до програмування.
+    - **Тема:** [int,float,конвертація](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/772/records/8005)  
+    - **Файл:** [main.py](https://github.com/yeliseevalex/Python8/blob/main/Вступ%20до%20програмування/main.py)  
+    - **Тема в LMS:** [Ознайомлення з середовищем розробки. Можливості IDLE, PyCharm, Shell/Bash.](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/772/records/8005)
     
 ### 2. **ООП (Об'єктно-Орієнтоване Програмування)**
 - **Опис:** Приклади та практика ООП на Python.
@@ -24,34 +27,19 @@
 - **Опис:** Приклади роботи з основними типами даних в Python.
 - **Файли:**
   - `dictionaries.py` — Приклади роботи з словниками.
-    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
-    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
-    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `files.py` — Робота з файлами.
-    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
-    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
-    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `info_types.txt` — Приклад використання різних типів даних.
   - `lists.py` — Робота зі списками.
-    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
-    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
-    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `operations.py` — Основні операції з типами даних.
-    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
-    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
-    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
+    - **Тема:** [Арифметичні та логічні операції (Хронометраж 1:09:00 - 1:26:10)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007) 
+    - **Файл:** [operations.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/operations.py)  
+    - **Тема в LMS:** [Типи даних. Чому важливі типи даних. Рядки. Методи рядків (Хронометраж 1:09:00 - 1:26:10)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
   - `sets.py` — Робота з множинами.
-    - **Тема:** [Рядки 1](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006) та [Рядки 2](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
-    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
-    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006) та [Типи даних. Чому важливі типи даних. Рядки. Методи рядків. {Хронометраж 0:00:00 - 1:09:00}](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
   - `strs.py` — Приклад роботи з рядками.
     - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
     - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
     - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `type_datetime.py` — Робота з датою та часом у Python.
-    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
-    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
-    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `info_datetime.txt` — Інформація про роботу з датою та часом.
 
 ### 4. **Умовний оператор, Цикли, Функції**
@@ -59,8 +47,17 @@
 - **Файли:**
   - `defs.py` — Приклад використання функцій.
   - `if_else.py` — Приклад використання умовних операторів.
+    - **Тема:** [Умовних оператори (Хронометраж 1:26:00 - 1:53:32)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)  
+    - **Файл:** [if_else.py](https://github.com/yeliseevalex/Python8/blob/main/Умовний%20оператор%2CЦикли%2CФункції/if_else.py)  
+    - **Тема в LMS:** [Типи даних. Чому важливі типи даних. Рядки. Методи рядків (Хронометраж 1:26:00 - 1:53:32)]([https://i.dan-](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
   - `try_except.py` — Приклад обробки помилок.
+    - **Тема:** [Try-except (Хронометраж 0:00:00 - 0:30:00)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8008)  
+    - **Файл:** [try_except.py](https://github.com/yeliseevalex/Python8/blob/main/Умовний%20оператор%2CЦикли%2CФункції/try_except.py)  
+    - **Тема в LMS:** [Цілі числа (Integer). Дробові числа (Float). Математика в коді. Оператори. Булеві (Хронометраж 0:00:00 - 0:30:00)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/775/records/8008)
   - `while_for.py` — Приклади циклів while та for.
+    - **Тема:** [Циклів while та for (Хронометраж 0:30:00 - 2:09:17)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8008)  
+    - **Файл:** [while_for.py](https://github.com/yeliseevalex/Python8/blob/main/Умовний%20оператор%2CЦикли%2CФункції/while_for.py)  
+    - **Тема в LMS:** [Цілі числа (Integer). Дробові числа (Float). Математика в коді. Оператори. Булеві (Хронометраж 0:30:00 - 2:09:17)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/775/records/8008)
 
 ## Встановлення та запуск
 
