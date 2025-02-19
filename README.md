@@ -24,17 +24,35 @@
 - **Опис:** Приклади роботи з основними типами даних в Python.
 - **Файли:**
   - `dictionaries.py` — Приклади роботи з словниками.
+    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
+    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `files.py` — Робота з файлами.
-  - `info_datetime.txt` — Інформація про роботу з датою та часом.
+    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
+    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `info_types.txt` — Приклад використання різних типів даних.
   - `lists.py` — Робота зі списками.
+    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
+    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `operations.py` — Основні операції з типами даних.
+    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
+    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `sets.py` — Робота з множинами.
+    - **Тема:** [Рядки 1](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006) та [Рядки 2](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
+    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006) та [Типи даних. Чому важливі типи даних. Рядки. Методи рядків. {Хронометраж 0:00:00 - 1:09:00}](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
   - `strs.py` — Приклад роботи з рядками.
     - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
     - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
     - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `type_datetime.py` — Робота з датою та часом у Python.
+    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
+    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
+  - `info_datetime.txt` — Інформація про роботу з датою та часом.
 
 ### 4. **Умовний оператор, Цикли, Функції**
 - **Опис:** Приклади умовних операторів, циклів та функцій.
