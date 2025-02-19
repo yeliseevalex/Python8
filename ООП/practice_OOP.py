@@ -257,14 +257,14 @@ charlie = Student("Charlie", 85)
 dave = Student("Dave", 95)
 emma = Student("Emma", 98)
 
-# print(bob)
-# print(alice)
-# print(bob < alice)
-# print(bob > alice)
-# print(bob >= alice)
-# print(bob <= alice)
-# print(bob == alice)
-# print(bob != alice)
+print(bob)
+print(alice)
+print(bob < alice)
+print(bob > alice)
+print(bob >= alice)
+print(bob <= alice)
+print(bob == alice)
+print(bob != alice)
 
 math_course = MathCourse("Algebra", "15.02.2025", "15.03.2025")
 scince_course = ScienceCourse("Biology", "20.02.2025", "20.03.2025")
@@ -299,15 +299,3 @@ for name, badge in badges.items():
     print(f"{name} - {badge}")
 
 print(f'\n{combined_course.generate_report()}')
-
-
-# test_course = Course("test", "05.05.2025", "05.06.2025")
-# test_course.add_student(bob)
-# test_course.add_student(alice)
-# print(test_course)
-# test_course.save_to_json("test_course.json")
-# test_course.save_to_pickle("test_course.pcl")
-
-# new_course = Course.load_from_pickle("test_course.pcl")
-# print(new_course.get_students())
-#
