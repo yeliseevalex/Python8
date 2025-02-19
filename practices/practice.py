@@ -3,82 +3,60 @@
 # Якщо рядок складається тільки з цифр, програма повинна вивести суму всіх цифр.
 # Якщо рядок складається з букв, програма повинна вивести кількість голосних та приголосних букв.
 # Якщо рядок містить і цифри, і букви, програма повинна вивести їх суму для цифр і кількість голосних/приголосних для букв.
-# while True:
-#     text = input("Введіть рядок або Enter для завершення: ").lower().strip()
-#     if text == '':
-#         print("Кінець програми".center(100, '-'))
-#         break
-#
-#     try:
-#         if text.isdigit():
-#             sum_digits = sum(int(char) for char in text)
-#             print(f"Сума цифр: {sum_digits}")
-#         elif text.isalpha():
-#             vowels = "aeiou"
-#             consanants = "qwrtypsdfghjklzxcvbnm"
-#             vowels_count = sum(1 for char in text if char in vowels)
-#             consanants_count = sum(1 for char in text if char in consanants)
-#             print(f"Голосних: {vowels_count} Приголосних: {consanants_count}")
-#         elif text.isalnum():
-#             sum_digits = sum(int(char) for char in text if char.isdigit())
-#             vowels = "aeiou"
-#             consanants = "qwrtypsdfghjklzxcvbnm"
-#             vowels_count = sum(1 for char in text if char in vowels)
-#             consanants_count = sum(1 for char in text if char in consanants)
-#             print(f"Сума цифр: {sum_digits}")
-#             print(f"Голосних: {vowels_count} Приголосних: {consanants_count}")
-#     except Exception as ex:
-#         print(f"{ex}")
-#     finally:
-#         print("Спробуйте ввести інший рядок".center(100, '-'))
+while True:
+    text = input("Введіть рядок або Enter для завершення: ").lower().strip()
+    if text == '':
+        print("Кінець програми".center(100, '-'))
+        break
+
+    try:
+        if text.isdigit():
+            sum_digits = sum(int(char) for char in text)
+            print(f"Сума цифр: {sum_digits}")
+        elif text.isalpha():
+            vowels = "aeiou"
+            consanants = "qwrtypsdfghjklzxcvbnm"
+            vowels_count = sum(1 for char in text if char in vowels)
+            consanants_count = sum(1 for char in text if char in consanants)
+            print(f"Голосних: {vowels_count} Приголосних: {consanants_count}")
+        elif text.isalnum():
+            sum_digits = sum(int(char) for char in text if char.isdigit())
+            vowels = "aeiou"
+            consanants = "qwrtypsdfghjklzxcvbnm"
+            vowels_count = sum(1 for char in text if char in vowels)
+            consanants_count = sum(1 for char in text if char in consanants)
+            print(f"Сума цифр: {sum_digits}")
+            print(f"Голосних: {vowels_count} Приголосних: {consanants_count}")
+    except Exception as ex:
+        print(f"{ex}")
+    finally:
+        print("Спробуйте ввести інший рядок".center(100, '-'))
 
 # Завдання
-#
 # 1.Запросіть у користувача ім'я та місячну зарплату в доларах та виведіть їхню річну зарплату в тисячах доларів.
-#
 # Наприклад: «Мішель», «12345» → «Річна зарплата Мішель складає 148 тис. доларів».
-# name = input()
-# salary = int(input())
-# salary_year = salary * 12
-# salary_year = 148500 / 1000
-# print(f'{name} {salary} ....')
+name = input()
+salary = int(input())
+salary_year = salary * 12
+print(f'{name} {salary} ....')
 
-# 2. Запросіть ціле число і виведіть True, якщо це парне число діапазоні від 100 до 999, інакше - «False».
-#
-# 3. Як вхідні дані візьмемо ціле число; Це буде ціле число від 101 до 999, а його остання цифра
+# 2. Як вхідні дані візьмемо ціле число; Це буде ціле число від 101 до 999, а його остання цифра
 # не дорівнює нулю(робити перевірку не обовʼязково) Виведіть число, що складається
 # з чисел першого у зворотньому порядку.
-
 # Наприклад: 256 → 652.
-# import random
-# num1 = random.randint(101, 999)
-# print(num1)
-# # num1 = int(str(num1)[::-1])
-# # print(num1)
-# num1_1 = num1 % 10
-# print(num1_1)
-# num1_2 = (num1 % 100) // 10
-# print(num1_2)
-# num1_3 = num1 // 100
-# print(num1_3)
-# result = num1_1 * 100 + num1_2 * 10 + num1_3
-# print(result)
-
-
-#
-# 4. Запитайте два цілих числа та виведіть:
-#
-# a. Їхню суму
-#
-# b. Їхня різниця
-#
-# c. результат множення
-#
-# d. Результат поділу першого на друге
-#
-# e. Залишок від поділу першого на друге
-#
-# f. True, якщо перше число більше або дорівнює другому, інакше False.
+import random
+num1 = random.randint(101, 999)
+print(num1)
+num1 = int(str(num1)[::-1])
+print(num1)
+num1_1 = num1 % 10
+print(num1_1)
+num1_2 = (num1 % 100) // 10
+print(num1_2)
+num1_3 = num1 // 100
+print(num1_3)
+result = num1_1 * 100 + num1_2 * 10 + num1_3
+print(result)
 
 
 # Напишіть програму, яка запитує в користувача ціле число та генерує таблицю множення для цього числа,
@@ -89,32 +67,31 @@
 # вивести таблицю множення для введеного числа в цьому діапазоні.
 # Програма повинна перевіряти правильність введеного діапазону (введення повинно бути цілим числом і
 # правильний порядок: початок діапазону менше кінця).
-#
-# while True:
-#     try:
-#         # Запитуємо число для таблиці множення
-#         number = int(input("Enter number: "))
-#         print(f"Таблиця множення для числа {number} від 1 до 10")
-#         for i in range(1,11):
-#             print(f"{number} * {i} = {number*i}")
-#
-#         # Запитуємо діапазон для таблиці
-#         start = int(input("Enter start: "))
-#         end = int(input("Enter end: "))
-#
-#         if start > end:
-#             print("Помилка: початок діапазону має бути меньшим за кінець")
-#         else:
-#             print(f"Таблиця множення для числа {number} від {start} до {end}")
-#             for i in range(start, end + 1):
-#                 print(f"{number} * {i} = {number * i}")
-#     except Exception as ex:
-#         print(f"Error {ex}")
-#
-#     exit_choce = input("Бажаєте вийти? (yes/no)").lower().strip()
-#     if exit_choce == 'yes':
-#         print("End")
-#         break
+while True:
+    try:
+        # Запитуємо число для таблиці множення
+        number = int(input("Enter number: "))
+        print(f"Таблиця множення для числа {number} від 1 до 10")
+        for i in range(1,11):
+            print(f"{number} * {i} = {number*i}")
+
+        # Запитуємо діапазон для таблиці
+        start = int(input("Enter start: "))
+        end = int(input("Enter end: "))
+
+        if start > end:
+            print("Помилка: початок діапазону має бути меньшим за кінець")
+        else:
+            print(f"Таблиця множення для числа {number} від {start} до {end}")
+            for i in range(start, end + 1):
+                print(f"{number} * {i} = {number * i}")
+    except Exception as ex:
+        print(f"Error {ex}")
+
+    exit_choce = input("Бажаєте вийти? (yes/no)").lower().strip()
+    if exit_choce == 'yes':
+        print("End")
+        break
 
 
 # Напишіть програму, яка:
@@ -123,30 +100,27 @@
 # Просить користувача вгадати число, підказуючи, більше чи менше введене число за загаданим.
 # Продовжує запитувати числа, поки користувач не вгадає.
 # Після вгадування виводить кількість спроб.
-#
-# import random
-#
-# secret_number = random.randint(1,10000)
-# attempts = 0
-# print("Я загадав число від 1 до 10000. Спробуй вгадати")
+import random
 
-# while True:
-#     try:
-#         user_number = int(input("Введіть ваше число: "))
-#         attempts += 1
-#         if user_number < secret_number:
-#             print("Загадане число більше")
-#         elif user_number > secret_number:
-#             print("Загадане число меньше")
-#         else:
-#             print(f"Ви вгадали число {secret_number} за {attempts} спроб")
-#             break
-#
-#     except Exception as ex:
-#         print(f"Error {ex}")
+secret_number = random.randint(1,10000)
+attempts = 0
+print("Я загадав число від 1 до 10000. Спробуй вгадати")
 
+while True:
+    try:
+        user_number = int(input("Введіть ваше число: "))
+        attempts += 1
+        if user_number < secret_number:
+            print("Загадане число більше")
+        elif user_number > secret_number:
+            print("Загадане число меньше")
+        else:
+            print(f"Ви вгадали число {secret_number} за {attempts} спроб")
+            break
 
-#
+    except Exception as ex:
+        print(f"Error {ex}")
+
 # Напишіть програму, яка:
 #
 # Генерує випадковий рядок з літер (маленькі й великі) і цифр довжиною N, де N вводить користувач.
@@ -171,8 +145,8 @@
 # Запитуємо тукст у користувача і перетворюємо текст у нижній регістр
 text = input("Enter text: ").lower()
 clean_text = ""
-# print(ord('a'))
-# print(chr(97))
+print(ord('a'))
+print(chr(97))
 for char in text:
     if 'a' <= char <= 'z' or char == " ":
         clean_text += char
@@ -263,56 +237,52 @@ print(f"Паліндроми у тексті: {palindromes}")
 # Якщо не вгадав — програє.
 # Програма працює в циклі, поки користувач не введе "вихід".
 
-# import random
-#
-# balance = 1000
-#
-# while True:
-#     print(f"Ваш баланс: {balance}".center(100, '-'))
-#
-#     bet_type = input("Ставка (число 0-36 або колір червоне/чорне/зелений, або вихід): ").lower().strip()
-#
-#     if bet_type == "вихід":
-#         print(f"Гра завершена. Ваш баланс: {balance}")
-#         break
-#
-#     amount = int(input("Введіть суму ставки: "))
-#
-#     if amount > balance or amount <= 0:
-#         print("Недостатньо коштів або некоректна ставка!")
-#         continue
-#
-#     result = random.randint(0, 36)
-#
-#     if result == 0:
-#         result_color = "зелений"
-#     elif result % 2 == 0:
-#         result_color = "чорне"
-#     else:
-#         result_color = "червоне"
-#
-#     print(f"Випало: {result} - {result_color}")
-#
-#     if bet_type.isdigit() and int(bet_type) == result:
-#         balance += amount * 35
-#         print(f"Ви вгалали число ваш виграш х35 ({amount * 35})")
-#     elif bet_type == "червоне" and result_color == "червоне":
-#         balance += amount * 2
-#         print(f"Ви вгалали колір ваш виграш х2 ({amount * 2})")
-#     elif bet_type == "чорне" and result_color == "чорне":
-#         balance += amount * 2
-#         print(f"Ви вгалали колір ваш виграш х2 ({amount * 2})")
-#     elif bet_type == "зелений" and result_color == "зелений":
-#         balance += amount * 70
-#         print(f"Ви вгалали зелений колір ваш виграш х70 ({amount * 70})")
-#     else:
-#         balance -= amount
-#         print(f"Ви програли ({amount})")
-#
-#     if balance <= 0:
-#         print("У вас закінчилися гроші! Гра завершена")
-#         break
-#
-#
-#
-#
+import random
+
+balance = 1000
+
+while True:
+    print(f"Ваш баланс: {balance}".center(100, '-'))
+
+    bet_type = input("Ставка (число 0-36 або колір червоне/чорне/зелений, або вихід): ").lower().strip()
+
+    if bet_type == "вихід":
+        print(f"Гра завершена. Ваш баланс: {balance}")
+        break
+
+    amount = int(input("Введіть суму ставки: "))
+
+    if amount > balance or amount <= 0:
+        print("Недостатньо коштів або некоректна ставка!")
+        continue
+
+    result = random.randint(0, 36)
+
+    if result == 0:
+        result_color = "зелений"
+    elif result % 2 == 0:
+        result_color = "чорне"
+    else:
+        result_color = "червоне"
+
+    print(f"Випало: {result} - {result_color}")
+
+    if bet_type.isdigit() and int(bet_type) == result:
+        balance += amount * 35
+        print(f"Ви вгалали число ваш виграш х35 ({amount * 35})")
+    elif bet_type == "червоне" and result_color == "червоне":
+        balance += amount * 2
+        print(f"Ви вгалали колір ваш виграш х2 ({amount * 2})")
+    elif bet_type == "чорне" and result_color == "чорне":
+        balance += amount * 2
+        print(f"Ви вгалали колір ваш виграш х2 ({amount * 2})")
+    elif bet_type == "зелений" and result_color == "зелений":
+        balance += amount * 70
+        print(f"Ви вгалали зелений колір ваш виграш х70 ({amount * 70})")
+    else:
+        balance -= amount
+        print(f"Ви програли ({amount})")
+
+    if balance <= 0:
+        print("У вас закінчилися гроші! Гра завершена")
+        break
