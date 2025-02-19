@@ -30,7 +30,10 @@
   - `lists.py` — Робота зі списками.
   - `operations.py` — Основні операції з типами даних.
   - `sets.py` — Робота з множинами.
-  - `strs.py` — Приклад роботи з рядками. **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006) -> **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/%D0%A2%D0%B8%D0%BF%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/strs.py) **Тема в LMS 3. Змінні. Правила найменування. Правила IO**
+  - `strs.py` — Приклад роботи з рядками.
+    - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/%D0%A2%D0%B8%D0%9F%D0%98%20%D0%B4%D0%90%D0%9D%D0%98%D0%9F/strs.py)  
+    - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `type_datetime.py` — Робота з датою та часом у Python.
 
 ### 4. **Умовний оператор, Цикли, Функції**
