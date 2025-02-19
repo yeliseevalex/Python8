@@ -49,7 +49,7 @@
   - `if_else.py` — Приклад використання умовних операторів.
     - **Тема:** [Умовних оператори (Хронометраж 1:26:00 - 1:53:32)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)  
     - **Файл:** [if_else.py](https://github.com/yeliseevalex/Python8/blob/main/Умовний%20оператор%2CЦикли%2CФункції/if_else.py)  
-    - **Тема в LMS:** [Типи даних. Чому важливі типи даних. Рядки. Методи рядків (Хронометраж 1:26:00 - 1:53:32)]([https://i.dan-](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
+    - **Тема в LMS:** [Типи даних. Чому важливі типи даних. Рядки. Методи рядків (Хронометраж 1:26:00 - 1:53:32)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8007)
   - `try_except.py` — Приклад обробки помилок.
     - **Тема:** [Try-except (Хронометраж 0:00:00 - 0:30:00)](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/774/records/8008)  
     - **Файл:** [try_except.py](https://github.com/yeliseevalex/Python8/blob/main/Умовний%20оператор%2CЦикли%2CФункції/try_except.py)  
