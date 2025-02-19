@@ -32,7 +32,7 @@
   - `sets.py` — Робота з множинами.
   - `strs.py` — Приклад роботи з рядками.
     - **Тема:** [Рядки](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)  
-    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/%D0%A2%D0%B8%D0%9F%D0%98%20%D0%B4%D0%90%D0%9D%D0%98%D0%9F/strs.py)  
+    - **Файл:** [strs.py](https://github.com/yeliseevalex/Python8/blob/main/Типи%20даних/strs.py)  
     - **Тема в LMS:** [Змінні. Правила найменування. Правила IO](https://i.dan-it.com.ua/groups/260/programs/13/module/76/lesson/773/records/8006)
   - `type_datetime.py` — Робота з датою та часом у Python.
 
